@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+body{
+    background-color: rgb(241, 234, 234);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(95, 95, 95);
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    margin: 5px;
+}
+input{
+    display: block;
+    width: 480px;
+    margin: 2px 5px 18px 5px ;
+    border: 1px solid rgb(122, 122, 122);
+    font-size: 15px;
+    
+}
+
+.container{
+    margin: 20px auto;
+    width: 500px;
+    height: 450px;
+    border: 0.1px solid rgb(184, 184, 184);
+    box-shadow:  7px 7px 7px  rgb(184, 184, 184);
+    border-radius: 15px;
+    background: rgb(174, 214, 207);
+}
+
+button{
+    display: block;
+    background-color: rgb(31, 187, 57);
+    border: none;
+    padding: 9px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(43, 226, 74);
+}
+
+.input-formulario:focus{
+    
+    border: 1.3px solid rgb(61, 154, 197);
+    outline: 0;
+    
+}
+
+.dados{
+    width: 500px;
+    margin: 25px auto;
+    border: 1px solid rgb(143, 143, 143);
+    
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    margin: 12px;
+}
+
+.teste{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+
+}
