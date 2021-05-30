@@ -6,6 +6,8 @@
 }
 body{
     background-color: rgb(241, 234, 234);
+    background-image: url("https://i.pinimg.com/originals/66/50/46/6650464103b6e4e0533655eb43924aad.jpg");
+    background-size: cover;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -31,11 +33,11 @@ input{
 .container{
     margin: 20px auto;
     width: 500px;
-    height: 450px;
+    height: 500px;
     border: 0.1px solid rgb(184, 184, 184);
     box-shadow:  7px 7px 7px  rgb(184, 184, 184);
     border-radius: 15px;
-    background: rgb(174, 214, 207);
+    background: rgb(174, 214, 207, 0.8);
 }
 
 button{
@@ -63,7 +65,7 @@ button:hover{
     width: 500px;
     margin: 25px auto;
     border: 1px solid rgb(143, 143, 143);
-    
+    height: auto !important;
 }
 
 li{
